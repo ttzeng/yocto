@@ -1,5 +1,4 @@
 # Yocto Source Directory and the download folder
-/poky
 /downloads
 
 # bitbake build artifacts

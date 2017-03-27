@@ -1,0 +1,18 @@
+[submodule "poky"]
+	path = poky
+	url = git://git.yoctoproject.org/poky.git
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+[submodule "meta-intel"]
+	path = meta-intel
+	url = git://git.yoctoproject.org/meta-intel
+[submodule "ref-os-iot"]
+	path = ref-os-iot
+	url = https://github.com/01org/ref-os-iot.git
+[submodule "meta-virtualization"]
+	path = meta-virtualization
+	url = git://git.yoctoproject.org/meta-virtualization
+[submodule "meta-snappy"]
+	path = meta-snappy
+	url = https://github.com/morphis/meta-snappy.git
