@@ -14,4 +14,5 @@ CONFIG_SQUASHFS_XZ=y\
 # CONFIG_SQUASHFS_EMBEDDED is not set\
 CONFIG_SQUASHFS_FRAGMENT_CACHE_SIZE=3/' ${B}/.config
   sed -i'' 's/.*CONFIG_DEVPTS_MULTIPLE_INSTANCES is not set.*/CONFIG_DEVPTS_MULTIPLE_INSTANCES=y/' ${B}/.config
+  sed -i'' 's/.*CONFIG_SECCOMP is not set.*/CONFIG_SECCOMP=y/' ${B}/.config
 }
